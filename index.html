@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MoneyBurner</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<style>
+  .red{
+    color: red;
+  }
+  .lightred{
+    color: lightcoral;
+  }
+  body {
+  background: linear-gradient(300deg, #aa0101, #7a2d00, #533201);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+</style>
+</head>
+
+<body>
+
+  <!-- Title -->
+  <section id="title">
+    <div class="container">
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          <span class="fs-4 red">Money</span><span class="fs-4 lightred">Burner 🔥</span>
+        </a>
+  
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="#" class="nav-link lightred">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link lightred">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link lightred">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link lightred">About</a></li>
+        </ul>
+      </header>
+    </div>
+
+  </section>
+  <!-- Features -->
+  <section id="features">
+    <div class="container px-4 py-5" id="featured-3">
+      <h2 class="pb-2 border-bottom">What is MoneyBurner</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          </div>
+          <h3 class="fs-2 text-body-emphasis">You Pay, We Incinerate</h3>
+          <p>We use state-of-the-art incinerators specially designed for efficient rapid combustion of your hard earned money. At MoneyBurner quality is our number one priority.</p>
+          <a href="#" class="icon-link lightred">
+            Learn more
+            <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+          </a>
+        </div>
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Environmentally Unfriendly</h3>
+          <p>At MoneyBurner we take great care to ensure every last bill creates as much pollution as possible. We hire eco-unconcious consultants to examine our process and ensure the utmost damage to the environment.</p>
+          <a href="#" class="icon-link lightred">
+            Learn more
+            <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+          </a>
+        </div>
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Convienence First</h3>
+          <p>We understand the difficulty of burning money by yourself, at MoneyBurner our customers convienence is our number two priority. Just enter your credit card number and we'll take care of the rest.</p>
+          <a href="#" class="icon-link lightred">
+            Learn more
+            <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Testimonial -->
+  <section id="testimonial">
+    <div class="px-4 pt-5 my-5 text-center border-bottom">
+      <h1 class="display-12 fw-bold text-body-emphasis">"Before MoneyBurner I spent 6 hours a day burning my money, thanks to MoneyBurner I finally have enough time to see my kids"</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">In the busy modern world burning money is just one extra inconvienent errand, MoneyBurner will help reduce the headache of burning money yourself and finally give you a much needed break.</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+          <button type="button" class="btn btn-danger btn-lg px-4 me-sm-3">Burn my $$$</button>
+        </div>
+      </div>
+      <div class="overflow-hidden" style="max-height: 30vh;">
+        <div class="container px-5">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Pricing -->
+  <section id="pricing">
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Beta Plan</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$28<small class="text-body-secondary fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>- High quality fire</li>
+              <li>- State of the art incineration</li>
+              <li>- Help center access</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-danger">BURN MY MONEY</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Alpha Plan</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$163<small class="text-body-secondary fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>- High quality fire</li>
+              <li>- Free photos of your money after its been burned</li>
+              <li>- Extra hot fire</li>
+              <li>- Help center access</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-danger">BURN MY MONEY</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-danger">
+          <div class="card-header py-3 text-bg-danger border-danger">
+            <h4 class="my-0 fw-normal">Sigma Plan</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$407093857<small class="text-body-secondary fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>- Highest quality fire</li>
+              <li>- A trip to view our incinerators</li>
+              <li>- Maximum environmental damage</li>
+              <li>- Free plushie of Hatsune Miku</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-danger">BURN MY MONEY</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <section id="footer">
+
+  </section>
+</body>
+
+</html>
